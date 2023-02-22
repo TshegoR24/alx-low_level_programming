@@ -40,7 +40,7 @@ if (s == e)
 _putchar('\n');
 s++;
 }
-s = 0
+s = 0;
 count++;
 
 }
