@@ -1,26 +1,27 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - prints the alphabet in lower case X10
- * Return: nothing on success
+ * print_alphabet_x10 - prints alphabet 10 time
+ * Return: void
  */
 
 void print_alphabet_x10(void)
-
 {
 
-int start = 97, end = 122, count = 1;
+char c;
+int i = 0;
 
-while (count <= 10)
+while (i < 10)
 {
-while (start <= end)
+c = 'a';
+
+while (c <= 'Z')
 {
-_putchar(start);
-start++;
+_putchar(c);
+c++;
 }
 _putchar('\n');
-
-start = 97;
-count++;
+i++;
 }
+
 }
