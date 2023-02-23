@@ -7,7 +7,7 @@
 
 
 
-int main(voi)
+int main(void)
 
 {
 	int i;
