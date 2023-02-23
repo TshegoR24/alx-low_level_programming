@@ -20,5 +20,5 @@ int main(void)
 	/*      putchar(i);*/
 	/*}*/
 	prinf("Infinite loop avoided! \\0/\n");
-	reutn (0);
+	return (0);
 }
