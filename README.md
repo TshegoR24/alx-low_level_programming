@@ -1,1 +1,1 @@
-this is a repository on c
+0x05-pointers_arrays_strings
